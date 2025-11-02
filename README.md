@@ -7,23 +7,23 @@ The goal is to extract both handcrafted and learned features from particles, ass
 ---
 ## Project Overview
 
-### 🔹 Segmentation comparison
+### Segmentation comparison
 <p align="center">
-  <img src="media/segmentation_comparison.png" alt="Segmentation comparison" width="700"/>
+  <img src="media/segmentation_comparison.png" alt="Segmentation comparison" width="450"/>
   <br>
   <em>Our morphological segmentation pipeline preserves contours and texture without GPU inference.</em>
 </p>
 
-### 🔹 Feature space visualization
+### Feature space visualization
 <p align="center">
-  <img src="media/umap_projection.png" alt="UMAP projection of particle features" width="650"/>
+  <img src="media/umap_projection.png" alt="UMAP projection of particle features" width="450"/>
   <br>
   <em>UMAP projection of particle features — clusters highly overlap, indicating weak separability.</em>
 </p>
 
-### 🔹 Classification performance
+### Classification performance
 <p align="center">
-  <img src="media/roc_curves.png" alt="ROC curves for classifiers" width="600"/>
+  <img src="media/roc_curves.png" alt="ROC curves for classifiers" width="450"/>
   <br>
   <em>ROC curves for Random Forest, XGBoost, and LightGBM — limited separability between Living and Non-Living.</em>
 </p>
